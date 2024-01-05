@@ -4,7 +4,6 @@
     "@protected": true,
     "id": "@id",
     "type": "@type",
-    "title": "Authority Context",
     "schema": "https://schema.org/",
     "authority": "https://raw.githubusercontent.com/shivakumar20014/s-rc/main/context.json",
     "Authority": {
