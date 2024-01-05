@@ -1,0 +1,19 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@protected": true,
+    "id": "@id",
+    "type": "@type",
+    "schema": "https://schema.org/",
+    "Authority": {
+      "@id": "schema:Authority",
+      "@context": {
+        "@version": 1.1,
+        "@protected": true,
+        "place": "schema:Text",
+        "contact": "schema:Text",
+        "email": "schema:Text"
+      }
+    }
+  }
+}
