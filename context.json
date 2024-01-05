@@ -4,11 +4,11 @@
     "@protected": true,
     "id": "@id",
     "type": "@type",
-    "title": "Authority Context Schema",
+    "title": "Authority Context",
     "schema": "https://schema.org/",
     "authority": "https://raw.githubusercontent.com/shivakumar20014/s-rc/main/context.json",
     "Authority": {
-      "@id": "schema:Authority",
+      "@id": "authority:Authority",
       "@context": {
         "id": "@id",
         "@version": 1.1,
