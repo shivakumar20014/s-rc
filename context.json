@@ -6,6 +6,7 @@
     "type": "@type",
     "schema": "https://schema.org/",
     "authority": "https://raw.githubusercontent.com/shivakumar20014/s-rc/main/context.json",
+    "farmer": "https://raw.githubusercontent.com/shivakumar20014/s-rc/main/context.json",
     "Authority": {
       "@id": "authority:Authority",
       "@context": {
@@ -16,6 +17,19 @@
         "place": "schema:Text",
         "email": "schema:Text",
         "contact": "schema:Text"
+      }
+    },
+    "Farmer": {
+      "@id": "farmer:Farmer",
+      "@context": {
+        "id": "@id",
+        "@version": 1.1,
+        "@protected": true,
+        "nonTransferable": "farmer:nonTransferable",
+        "place": "schema:Text",
+        "email": "schema:Text",
+        "contact": "schema:Text",
+        "qualityCheck": "schema:Text"
       }
     }
   }
