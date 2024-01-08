@@ -26,6 +26,7 @@
         "@version": 1.1,
         "@protected": true,
         "nonTransferable": "farmer:nonTransferable",
+        "name": "schema:Text",
         "place": "schema:Text",
         "email": "schema:Text",
         "contact": "schema:Text",
