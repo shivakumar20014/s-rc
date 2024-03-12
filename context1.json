@@ -1,0 +1,14 @@
+{
+    "@context": {
+        "schema": "http://schema.org/"
+    },
+    "farmerId": "schema:Text",
+    "farmerDemoGraphicDetails": {
+        "farmerName": "schema:Text",
+        "identifierName": "schema:Text",
+        "gender": "schema:Text",
+        "dob": "schema:Text",
+        "residenceAddress": "schema:Text",
+        "farmerPhoto": "schema:Text"
+    }
+}
