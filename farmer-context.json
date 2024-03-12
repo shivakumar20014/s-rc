@@ -6,10 +6,6 @@
       "FarmerRegistry": {
         "@id": "farmerContext:FarmerRegistry",
         "@type": "object",
-        "required": [
-          "farmerContext:title",
-          "farmerContext:place"
-        ],
         "properties": {
           "farmerContext:title": {
             "@id": "farmerContext:title",
