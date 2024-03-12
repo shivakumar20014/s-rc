@@ -44,17 +44,17 @@
         "farmerContext:email": {
           "@id": "farmerContext:email",
           "@type": "xsd:string",
-          "description": "Farmer's email address (optional)"
+          "description": "Farmer's email address"
         },
         "farmerContext:contact": {
           "@id": "farmerContext:contact",
           "@type": "xsd:string",
-          "description": "Farmer's contact information (optional)"
+          "description": "Farmer's contact information"
         },
         "farmerContext:qualityCheck": {
           "@id": "farmerContext:qualityCheck",
           "@type": "xsd:string",
-          "description": "Quality check status (optional)"
+          "description": "Quality check status"
         }
       }
     }
