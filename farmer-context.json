@@ -6,55 +6,30 @@
       "FarmerRegistry": {
         "@id": "farmerContext:FarmerRegistry",
         "@type": "@id",
-        "farmerContext:title": {
+        "title": {
           "@id": "farmerContext:title",
           "@type": "xsd:string",
           "description": "Title of the registry entry"
         },
-        "farmerContext:place": {
+        "place": {
           "@id": "farmerContext:place",
           "@type": "xsd:string",
           "description": "Location of the farmer"
         },
-        "farmerContext:email": {
+        "email": {
           "@id": "farmerContext:email",
           "@type": "xsd:string",
           "description": "Farmer's email address (optional)"
         },
-        "farmerContext:contact": {
+        "contact": {
           "@id": "farmerContext:contact",
           "@type": "xsd:string",
           "description": "Farmer's contact information (optional)"
         },
-        "farmerContext:qualityCheck": {
+        "qualityCheck": {
           "@id": "farmerContext:qualityCheck",
           "@type": "xsd:string",
           "description": "Quality check status (optional)"
-        },
-        "farmerContext:title": {
-          "@id": "farmerContext:title",
-          "@type": "xsd:string",
-          "description": "Title of the registry entry"
-        },
-        "farmerContext:place": {
-          "@id": "farmerContext:place",
-          "@type": "xsd:string",
-          "description": "Location of the farmer"
-        },
-        "farmerContext:email": {
-          "@id": "farmerContext:email",
-          "@type": "xsd:string",
-          "description": "Farmer's email address"
-        },
-        "farmerContext:contact": {
-          "@id": "farmerContext:contact",
-          "@type": "xsd:string",
-          "description": "Farmer's contact information"
-        },
-        "farmerContext:qualityCheck": {
-          "@id": "farmerContext:qualityCheck",
-          "@type": "xsd:string",
-          "description": "Quality check status"
         }
       }
     }
