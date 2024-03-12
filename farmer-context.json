@@ -5,33 +5,56 @@
       "farmerContext": "https://raw.githubusercontent.com/shivakumar20014/s-rc/main/farmer-context.json",
       "FarmerRegistry": {
         "@id": "farmerContext:FarmerRegistry",
-        "@type": "object",
-        "properties": {
-          "farmerContext:title": {
-            "@id": "farmerContext:title",
-            "@type": "xsd:string",
-            "description": "Title of the registry entry"
-          },
-          "farmerContext:place": {
-            "@id": "farmerContext:place",
-            "@type": "xsd:string",
-            "description": "Location of the farmer"
-          },
-          "farmerContext:email": {
-            "@id": "farmerContext:email",
-            "@type": "xsd:string",
-            "description": "Farmer's email address (optional)"
-          },
-          "farmerContext:contact": {
-            "@id": "farmerContext:contact",
-            "@type": "xsd:string",
-            "description": "Farmer's contact information (optional)"
-          },
-          "farmerContext:qualityCheck": {
-            "@id": "farmerContext:qualityCheck",
-            "@type": "xsd:string",
-            "description": "Quality check status (optional)"
-          }
+        "@type": "@id",
+        "farmerContext:title": {
+          "@id": "farmerContext:title",
+          "@type": "xsd:string",
+          "description": "Title of the registry entry"
+        },
+        "farmerContext:place": {
+          "@id": "farmerContext:place",
+          "@type": "xsd:string",
+          "description": "Location of the farmer"
+        },
+        "farmerContext:email": {
+          "@id": "farmerContext:email",
+          "@type": "xsd:string",
+          "description": "Farmer's email address (optional)"
+        },
+        "farmerContext:contact": {
+          "@id": "farmerContext:contact",
+          "@type": "xsd:string",
+          "description": "Farmer's contact information (optional)"
+        },
+        "farmerContext:qualityCheck": {
+          "@id": "farmerContext:qualityCheck",
+          "@type": "xsd:string",
+          "description": "Quality check status (optional)"
+        },
+        "farmerContext:title": {
+          "@id": "farmerContext:title",
+          "@type": "xsd:string",
+          "description": "Title of the registry entry"
+        },
+        "farmerContext:place": {
+          "@id": "farmerContext:place",
+          "@type": "xsd:string",
+          "description": "Location of the farmer"
+        },
+        "farmerContext:email": {
+          "@id": "farmerContext:email",
+          "@type": "xsd:string",
+          "description": "Farmer's email address (optional)"
+        },
+        "farmerContext:contact": {
+          "@id": "farmerContext:contact",
+          "@type": "xsd:string",
+          "description": "Farmer's contact information (optional)"
+        },
+        "farmerContext:qualityCheck": {
+          "@id": "farmerContext:qualityCheck",
+          "@type": "xsd:string",
+          "description": "Quality check status (optional)"
         }
       }
     }
