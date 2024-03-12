@@ -1,40 +1,41 @@
 {
-  "@context": [
-    "https://www.w3.org/2018/credentials/v1",
-    {
-      "farmerContext": "https://raw.githubusercontent.com/shivakumar20014/s-rc/main/farmer-context.json",
-      "FarmerRegistry": {
-        "@id": "farmerContext:FarmerRegistry",
-        "@type": "@id",
-        "@context": {
-          "@protected": true,
-          "title": {
-            "@id": "farmerContext:title",
-            "@type": "xsd:string",
-            "description": "Title of the registry entry"
-          },
-          "place": {
-            "@id": "farmerContext:place",
-            "@type": "xsd:string",
-            "description": "Location of the farmer"
-          },
-          "email": {
-            "@id": "farmerContext:email",
-            "@type": "xsd:string",
-            "description": "Farmer's email address (optional)"
-          },
-          "contact": {
-            "@id": "farmerContext:contact",
-            "@type": "xsd:string",
-            "description": "Farmer's contact information (optional)"
-          },
-          "qualityCheck": {
-            "@id": "farmerContext:qualityCheck",
-            "@type": "xsd:string",
-            "description": "Quality check status (optional)"
-          }
+  "@context": {
+    "@version": 1.1,
+    "@protected": true,
+    "id": "@id",
+    "type": "@type",
+    "farmerContext": "https://raw.githubusercontent.com/shivakumar20014/s-rc/main/farmer-context.json",
+    "FarmerRegistry": {
+      "@id": "farmerContext:FarmerRegistry",
+      "@type": "@id",
+      "@context": {
+        "@protected": true,
+        "title": {
+          "@id": "farmerContext:title",
+          "@type": "xsd:string",
+          "description": "Title of the registry entry"
+        },
+        "place": {
+          "@id": "farmerContext:place",
+          "@type": "xsd:string",
+          "description": "Location of the farmer"
+        },
+        "email": {
+          "@id": "farmerContext:email",
+          "@type": "xsd:string",
+          "description": "Farmer's email address (optional)"
+        },
+        "contact": {
+          "@id": "farmerContext:contact",
+          "@type": "xsd:string",
+          "description": "Farmer's contact information (optional)"
+        },
+        "qualityCheck": {
+          "@id": "farmerContext:qualityCheck",
+          "@type": "xsd:string",
+          "description": "Quality check status (optional)"
         }
       }
     }
-  ]
+  }
 }
