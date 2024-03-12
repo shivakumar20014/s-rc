@@ -1,0 +1,43 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",  // Base Verifiable Credential schema
+    {
+      "myContext": "https://example.com/contexts/farmer-registry.jsonld",  // Replace with your actual context URL
+      "FarmerRegistry": {
+        "@id": "myContext:FarmerRegistry",
+        "@type": "object",
+        "required": [
+          "myContext:title",
+          "myContext:place"
+        ],
+        "properties": {
+          "myContext:title": {
+            "@id": "myContext:title",
+            "@type": "xsd:string",  // Specify data type using XSD
+            "description": "Title of the registry entry"
+          },
+          "myContext:place": {
+            "@id": "myContext:place",
+            "@type": "xsd:string",  // Specify data type using XSD
+            "description": "Location of the farmer"
+          },
+          "myContext:email": {
+            "@id": "myContext:email",
+            "@type": "xsd:string",  // Specify data type using XSD
+            "description": "Farmer's email address (optional)"
+          },
+          "myContext:contact": {
+            "@id": "myContext:contact",
+            "@type": "xsd:string",  // Specify data type using XSD
+            "description": "Farmer's contact information (optional)"
+          },
+          "myContext:qualityCheck": {
+            "@id": "myContext:qualityCheck",
+            "@type": "xsd:string",  // Specify data type using XSD
+            "description": "Quality check status (optional)"
+          }
+        }
+      }
+    }
+  ]
+}
