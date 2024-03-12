@@ -6,30 +6,33 @@
       "FarmerRegistry": {
         "@id": "farmerContext:FarmerRegistry",
         "@type": "@id",
-        "title": {
-          "@id": "farmerContext:title",
-          "@type": "xsd:string",
-          "description": "Title of the registry entry"
-        },
-        "place": {
-          "@id": "farmerContext:place",
-          "@type": "xsd:string",
-          "description": "Location of the farmer"
-        },
-        "email": {
-          "@id": "farmerContext:email",
-          "@type": "xsd:string",
-          "description": "Farmer's email address (optional)"
-        },
-        "contact": {
-          "@id": "farmerContext:contact",
-          "@type": "xsd:string",
-          "description": "Farmer's contact information (optional)"
-        },
-        "qualityCheck": {
-          "@id": "farmerContext:qualityCheck",
-          "@type": "xsd:string",
-          "description": "Quality check status (optional)"
+        "@context": {
+          "@protected": true,
+          "title": {
+            "@id": "farmerContext:title",
+            "@type": "xsd:string",
+            "description": "Title of the registry entry"
+          },
+          "place": {
+            "@id": "farmerContext:place",
+            "@type": "xsd:string",
+            "description": "Location of the farmer"
+          },
+          "email": {
+            "@id": "farmerContext:email",
+            "@type": "xsd:string",
+            "description": "Farmer's email address (optional)"
+          },
+          "contact": {
+            "@id": "farmerContext:contact",
+            "@type": "xsd:string",
+            "description": "Farmer's contact information (optional)"
+          },
+          "qualityCheck": {
+            "@id": "farmerContext:qualityCheck",
+            "@type": "xsd:string",
+            "description": "Quality check status (optional)"
+          }
         }
       }
     }
