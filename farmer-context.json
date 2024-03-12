@@ -7,7 +7,6 @@
     "farmerContext": "https://raw.githubusercontent.com/shivakumar20014/s-rc/main/farmer-context.json",
     "FarmerRegistry": {
       "@id": "farmerContext:FarmerRegistry",
-      "@type": "@id",
       "@context": {
         "@protected": true,
         "title": {
