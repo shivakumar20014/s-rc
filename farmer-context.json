@@ -1,39 +1,39 @@
 {
   "@context": [
-    "https://www.w3.org/2018/credentials/v1",  // Base Verifiable Credential schema
+    "https://www.w3.org/2018/credentials/v1",
     {
-      "myContext": "https://example.com/contexts/farmer-registry.jsonld",  // Replace with your actual context URL
+      "farmerContext": "https://raw.githubusercontent.com/shivakumar20014/s-rc/main/farmer-context.json",
       "FarmerRegistry": {
-        "@id": "myContext:FarmerRegistry",
+        "@id": "farmerContext:FarmerRegistry",
         "@type": "object",
         "required": [
-          "myContext:title",
-          "myContext:place"
+          "farmerContext:title",
+          "farmerContext:place"
         ],
         "properties": {
-          "myContext:title": {
-            "@id": "myContext:title",
-            "@type": "xsd:string",  // Specify data type using XSD
+          "farmerContext:title": {
+            "@id": "farmerContext:title",
+            "@type": "xsd:string",
             "description": "Title of the registry entry"
           },
-          "myContext:place": {
-            "@id": "myContext:place",
-            "@type": "xsd:string",  // Specify data type using XSD
+          "farmerContext:place": {
+            "@id": "farmerContext:place",
+            "@type": "xsd:string",
             "description": "Location of the farmer"
           },
-          "myContext:email": {
-            "@id": "myContext:email",
-            "@type": "xsd:string",  // Specify data type using XSD
+          "farmerContext:email": {
+            "@id": "farmerContext:email",
+            "@type": "xsd:string",
             "description": "Farmer's email address (optional)"
           },
-          "myContext:contact": {
-            "@id": "myContext:contact",
-            "@type": "xsd:string",  // Specify data type using XSD
+          "farmerContext:contact": {
+            "@id": "farmerContext:contact",
+            "@type": "xsd:string",
             "description": "Farmer's contact information (optional)"
           },
-          "myContext:qualityCheck": {
-            "@id": "myContext:qualityCheck",
-            "@type": "xsd:string",  // Specify data type using XSD
+          "farmerContext:qualityCheck": {
+            "@id": "farmerContext:qualityCheck",
+            "@type": "xsd:string",
             "description": "Quality check status (optional)"
           }
         }
